@@ -1,0 +1,59 @@
+
+
+.navbar {
+    height: 5rem;
+    background-color: white;
+}
+
+.navbar-brand path{
+    fill: #fe424d;
+}
+
+.navbar-brand {
+    height: 3rem;
+}
+
+.cardlink {
+    text-decoration: none;
+}
+
+.listing-card {
+    border: none !important;
+}
+
+.card-img-top {
+    border-radius: 1rem !important;
+    object-fit: cover !important;
+}
+
+.card-img-overlay {
+    opacity: 0;
+}
+
+.card-img-overlay:hover {
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn {
+    background-color: #fe424d !important;
+    border-color: #fe424d !important;
+}
+
+.edit-btn {
+    text-decoration: none;
+    color: white;
+}
+
+.show-btns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alert {
+    text-align: center;
+}
+
+#map {
+    height: 20rem;
+}

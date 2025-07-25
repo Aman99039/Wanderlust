@@ -1,0 +1,36 @@
+<% layout("/layouts/boilerplate.ejs") %>
+    <br>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <h3>Create new post</h3>
+            <form action="/listings" method="post" class="needs-validation" novalidate enctype="multipart/form-data">
+                <div class="mb-3">
+                    <label for="title" class="form-label">Enter title</label>
+                    <input name="listing[title]" class="form-control" required>
+                </div>
+                <div class="mb-3">
+                    <label for="description" class="form-label">Enter description</label>
+                    <textarea name="listing[description]" class="form-control" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="url" class="form-label">Enter image url</label>
+                    <input name="listing[image][url]" type="file" class="form-control">
+                </div>
+                <div class="row">
+                    <div class="mb-3 col-4">
+                        <label for="price" class="form-label">Enter price</label>
+                        <input type="number" name="listing[price]" class="form-control" required>
+                    </div>
+                    <div class="mb-3 col-8">
+                        <label for="country" class="form-label">Enter country</label>
+                        <input name="listing[country]" class="form-control" required>
+                    </div>
+                </div>
+                <div class="mb-3">
+                    <label for="location" class="form-label">Enter location</label>
+                    <input name="listing[location]" class="form-control" required>
+                </div>
+                <button class="btn btn-dark add-btn">Add</button>
+            </form>
+        </div>
+    </div>
