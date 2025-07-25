@@ -1,7 +1,6 @@
 <% layout("/layouts/boilerplate.ejs") %>
 
   <h3 class="my-4">ALL Listings</h3>
-  <% if(allListings.length) { %>
   <div class="row">
     <% for (const Listings of allListings) { %>
       <div class="col-md-4 mb-4">
@@ -22,7 +21,3 @@
       </div>
       <% } %>
   </div>
-  <% } %>
-  <% if(!allListings.length) { %>
-  <h4>You don't have any listings to show</h4>
-  <% } %>
