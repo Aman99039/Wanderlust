@@ -3,7 +3,7 @@
 .navbar {
     height: 5rem;
     background-color: white;
-    z-index: 2;
+    z-index: 1;
 }
 
 .navbar-brand path{
