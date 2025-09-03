@@ -23,9 +23,24 @@ Users can explore destinations, view property details, add reviews, and manage b
 ---
 
 ## ⚙️ Installation
+```
 1. Clone the repo  
    ```bash
    git clone https://github.com/Aman99039/Wanderlust.git
    cd Wanderlust
+2. Install Dependencies
    npm install
+```
 
+---
+
+## Add a .env file with
+```
+CLOUDINARY_API_KEY=your_key
+MONGO_URI=your_mongo_connection
+```
+
+---
+
+## Run the app
+   npm start
