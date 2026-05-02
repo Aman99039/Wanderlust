@@ -1,11 +1,11 @@
-# 🌍 Wanderlust
+# Wanderlust
 
 A full-stack web application for booking and managing travel stays, inspired by platforms like Airbnb.  
 Users can explore destinations, view property details, add reviews, and manage bookings.
 
 ---
 
-## 🚀 Features
+## Features
 - User authentication & authorization (signup/login)
 - CRUD operations for listings and reviews
 - Image upload support with Cloudinary
@@ -14,7 +14,7 @@ Users can explore destinations, view property details, add reviews, and manage b
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 - **Frontend:** EJS, Bootstrap
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB
@@ -22,7 +22,7 @@ Users can explore destinations, view property details, add reviews, and manage b
 
 ---
 
-## ⚙️ Installation
+## Installation
 ```
 1. Clone the repo  
    ```bash
